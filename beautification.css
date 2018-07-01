@@ -1,0 +1,178 @@
+html, body{
+  margin:0;
+  padding:0;
+  min-width: 320px; /*min width cellphone dlm hal ini iphone 4*/
+}
+
+body{
+  font-family:"Arial Narrow", sans-serif;
+  height:100%;
+  width:100%;
+  background: url(./images/cube.gif);
+  background-repeat: repeat;
+
+}
+
+/* banner atas */
+header {
+  background-color: #222;
+  width:inherit;
+  z-index: 23;
+  position: fixed;
+  top:0;
+  left:0;
+}
+
+nav {
+  margin: 0 0;
+  padding: 10px 0;
+  float: right;
+}
+
+nav li {
+  display:inline-block;
+  width: 43px;
+  margin-right:40px;
+}
+
+nav li a:link, a:visited {
+  text-decoration:none;
+  color: white;
+  font-size: 14px;
+  font-weight: 143;
+  text-transform:uppercase;
+}
+
+nav li a:hover {
+  text-decoration:none;
+  color: #ffd700;
+  font-size: 14px;
+  font-weight: 666;
+  text-transform:uppercase;
+}
+
+
+/* judul dan latarbelakang */
+main {
+  clear:both;
+  position:relative;
+  top: 18px;
+  z-index:2;
+
+}
+
+main h1 {
+  color: white;
+  font-weight:23;
+  font-size:66px;
+  letter-spacing: 0.2em;
+  width:100%
+  margin-top: 0px;
+  padding-top: 80px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+main p {
+  color: #d3d3d3;
+  font-family: "Slabo";
+  font-size:23px;
+  font-style:italic;
+  margin-bottom:20px;
+}
+
+main a:link,a:visited {
+  background-color: hsl(0, 100%, 50%);
+  color: white;
+  font-weight: 143;
+  font-size: 14px;
+}
+
+main a:hover {
+  background-color: hsl(0, 100%, 33%);
+  color: #ffd700;
+  font-weight: 666;
+  font-size: 15px;
+}
+
+.gambarbelakang {
+  height: 400px;
+  width:100%;
+  clear: right;
+  background: url(./images/IMG_1084.JPG);
+  background-size:cover;
+  background-repeat:no-repeat;
+  position:relative;
+  margin-bottom:18px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 13px;
+  text-align: center;
+}
+
+.OurYoutubeButton {
+  letter-spacing: 0.2em;
+  padding: 14px 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* bagian tengah or video */
+section div {
+  z-index:3;
+  align-items: flex-end;
+  overflow-x: scroll;
+  position:relative;
+  border-style: none;
+}
+
+h2{
+  padding-left: 10px;
+  background-color: rgb(255,255,255,0.7);
+  /* width: 200px; */
+  margin: 0 auto;
+  padding: 10px;
+  text-align:center;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+  color: hsl(0, 0%, 25%, 0.7); /* grey color */
+
+}
+
+#a {
+  width:100%;
+  /* background-color:magenta; */
+  display:flex;
+}
+
+#b {
+  width:100%;
+  margin-bottom: 100px;
+  /* background-color:yellow; */
+  display:flex;
+}
+
+
+/* bagian bawah */
+footer {
+  background-color: #333;
+  color: white;
+  line-height:40px;
+  position: fixed;
+  width:100%;
+  bottom:0;
+  left:0;
+  z-index:22;
+}
+
+footer p {
+  font-family:sans-serif;
+  padding: 10 0;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 14px;
+}

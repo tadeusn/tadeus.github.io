@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tad & Audrey's Website version 1</title>
+  <link href="beautifycontact.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <link rel="icon" type="image/jpg" href="./images/photo.jpg">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="main.html">Home </a></li>
+        <li><a href=#>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <h1>!!!UNDER CONSTRUCTION!!!</h1><br><br><br>
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <p>
+          <label for="full-name">Full Name</label>
+          <input id="full-name" name="fullName" type="text">
+        </p>
+        <p>
+          <label for="email">Email Address</label>
+          <input id="email" name="email" type="email">
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Work Information</legend>
+        <!-- some other inputs -->
+      </fieldset><br>
+
+      <p>
+        <label for="programming">Your preferred programming languages?</label>
+        <input type="text" name="programming" list="programmingLangs" />
+        <datalist id="programmingLangs">
+          <select name="altProgrammingLangs">
+            <option value="javascript">JavaScript</option>
+            <option value="java">Java</option>
+            <option value="ruby">Ruby</option>
+            <option value="python">Python</option>
+          </select>
+        </datalist>
+      </p><br>
+
+      <label for="gender">Gender:</label>
+      <input id="male-radio" type="radio" name="gender" value="male">
+      <label for="male-radio">Male</label>
+      <input id="female-radio" type="radio" name="gender" value="female">
+      <label for="female-radio">Female</label><br>
+
+      <label for="skill">Skill:</label>
+      <input id="writing-checkbox" type="checkbox" name="skill" value="writing">
+      <label for="writing-checkbox">Writing</label>
+      <input id="reading-checkbox" type="checkbox" name="skill" value="reading">
+      <label for="reading-checkbox">Reading</label>
+      <input type="submit" value="Submit"><br>
+
+    </form>
+  </main>
+
+  <section>
+
+  </section>
+
+  <footer>
+      <div class="container">
+        <p> version 1.01. &copy; Copyright Tad & Audrey 2018 </p>
+      </div>
+    </footer>
+  </body>
+
+</html>

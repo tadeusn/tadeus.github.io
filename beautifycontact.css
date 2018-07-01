@@ -1,0 +1,124 @@
+html, body{
+  margin:0;
+  padding:0;
+  min-width: 320px; /*min width cellphone dlm hal ini iphone 4*/
+}
+
+body{
+  font-family:"Arial Narrow", sans-serif;
+  height:100%;
+  width:100%;
+  background: url(./images/cube.gif);
+  background-repeat: repeat;
+
+}
+
+/* banner atas */
+header {
+  background-color: #222;
+  width:inherit;
+  z-index: 23;
+  position: fixed;
+  top:0;
+  left:0;
+}
+
+nav {
+  margin: 0 0;
+  padding: 10px 0;
+  float: right;
+}
+
+nav li {
+  display:inline-block;
+  width: 43px;
+  margin-right:40px;
+}
+
+nav li a:link, a:visited {
+  text-decoration:none;
+  color: white;
+  font-size: 14px;
+  font-weight: 143;
+  text-transform:uppercase;
+}
+
+nav li a:hover {
+  text-decoration:none;
+  color: #ffd700;
+  font-size: 14px;
+  font-weight: 666;
+  text-transform:uppercase;
+}
+
+
+/* judul dan latarbelakang */
+main {
+  clear:both;
+  position:relative;
+  top: 100px;
+  z-index:2;
+  width:100%;
+  background-color: rgba(255, 0, 0, 0.5);
+
+}
+
+main h1 {
+  color: white;
+  font-weight:23;
+  font-size:23px;
+  letter-spacing: 0.2em;
+  width:100%
+  margin-top: 0px;
+  padding-top: 80px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  opacity: 0.7;
+  text-align: center;
+}
+
+main p {
+  color: #d3d3d3;
+  font-family: "Slabo";
+  font-size:23px;
+  font-style:italic;
+  margin-bottom:20px;
+}
+
+
+
+
+
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 13px;
+  text-align: center;
+}
+
+
+/* bagian tengah or video */
+section div {
+
+}
+
+
+/* bagian bawah */
+footer {
+  background-color: #333;
+  color: white;
+  line-height:40px;
+  position: fixed;
+  width:100%;
+  bottom:0;
+  left:0;
+  z-index:22;
+}
+
+footer p {
+  font-family:sans-serif;
+  padding: 10 0;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 14px;
